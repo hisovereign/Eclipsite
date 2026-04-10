@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ID="$1"
+VOLUME="$2"
+
+# Unmute the stream first (in case it was muted by another app)
+pactl set-sink-input-mute "$ID" 0
+
+# Then set volume
+pactl set-sink-input-volume "$ID" "${VOLUME}%"
