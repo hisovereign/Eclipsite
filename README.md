@@ -18,7 +18,7 @@ chmod +x ~/.local/bin/moonstone ~/.local/bin/sunstone
 ```
 3. Download the eclipsite@hisovereign folder and place it in ~/.local/share/cinnamon/applets
 
-   -download the metadata.json and the applet.js then create a folder named eclipsite@hisovereign and place it in ~/.local/share/cinnamon/applets
+   -download the metadata.json and the applet.js then create a folder named eclipsite@hisovereign and place it in ~/.local/share/cinnamon/applets (place the files in folder you made)
 
 4. Restart cinnamon (alt + F2 then type r and hit enter) or restart pc
 
