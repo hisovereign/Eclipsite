@@ -1,8 +1,9 @@
 # Eclipsite
 Vertical per-app volume control for Linux Cinnamon
-
+<img width="360" height="216" alt="Image" src="https://github.com/user-attachments/assets/e2ed924a-87a4-4e55-837a-51881fffbea2" />
 -Displays active audio sources in a vertical format with sliders and media titles from individual browser tabs.
 
+Demo- https://youtu.be/-5W3nlSEZ7g
 ## Requirements
 
 -Cinnamon Desktop environment
