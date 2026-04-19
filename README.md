@@ -36,3 +36,5 @@ chmod +x ~/.local/bin/moonstone ~/.local/bin/sunstone
 Muting sound from browser will make it an inactive sound source and it will disappear form the list. Unmuting brings it back however this breaks current media information and it will show generic browser name. To fix reload page.
 
 Some browsers currently not supported for media information.
+
+Currently applet will cause consistant fps drops which will be noticable in games
