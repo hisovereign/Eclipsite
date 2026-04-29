@@ -3,6 +3,17 @@
 ID="$1"
 VOLUME="$2"
 
+# Validate inputs
+if [[ ! "$ID" =~ ^[0-9]+$ ]]; then
+    echo "Error: ID must be numeric" >&2
+    exit 1
+fi
+
+if [[ ! "$VOLUME" =~ ^[0-9]+$ ]] || (( VOLUME < 0 || VOLUME > 150 )); then
+    echo "Error: VOLUME must be a number between 0 and 150" >&2
+    exit 1
+fi
+
 # Unmute the stream first (in case it was muted by another app)
 pactl set-sink-input-mute "$ID" 0
 
